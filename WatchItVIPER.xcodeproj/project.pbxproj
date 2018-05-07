@@ -8,22 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		353F18592098715C003C9380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F18582098715C003C9380 /* AppDelegate.swift */; };
-		353F185B2098715C003C9380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F185A2098715C003C9380 /* ViewController.swift */; };
 		353F185E2098715C003C9380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353F185C2098715C003C9380 /* Main.storyboard */; };
 		353F18612098715C003C9380 /* WatchItVIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 353F185F2098715C003C9380 /* WatchItVIPER.xcdatamodeld */; };
 		353F18632098715C003C9380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353F18622098715C003C9380 /* Assets.xcassets */; };
 		353F18662098715C003C9380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353F18642098715C003C9380 /* LaunchScreen.storyboard */; };
+		354295E0209F70B9006A71D4 /* WireFrame in Resources */ = {isa = PBXBuildFile; fileRef = 354295DF209F70B9006A71D4 /* WireFrame */; };
+		359AFDEB2098B67500D0A05E /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359AFDEA2098B67500D0A05E /* RealmService.swift */; };
+		359AFDED2098B68900D0A05E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359AFDEC2098B68900D0A05E /* Movie.swift */; };
+		359AFDEF2098C72100D0A05E /* ReopsitoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359AFDEE2098C72100D0A05E /* ReopsitoryProtocol.swift */; };
+		359AFDF12098C7A300D0A05E /* RepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359AFDF02098C7A300D0A05E /* RepositoryImp.swift */; };
+		359AFDF72098C9FF00D0A05E /* DataManager in Resources */ = {isa = PBXBuildFile; fileRef = 359AFDF62098C9FF00D0A05E /* DataManager */; };
+		359AFDFA2098CB3500D0A05E /* MovieListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359AFDF92098CB3500D0A05E /* MovieListProtocols.swift */; };
+		35C3B05D209F7165001E1704 /* Presenter in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B05C209F7165001E1704 /* Presenter */; };
+		35C3B05F209F7171001E1704 /* Interactor in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B05E209F7170001E1704 /* Interactor */; };
+		35C3B061209F7178001E1704 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B060209F7178001E1704 /* View */; };
+		35C3B06320A1ED02001E1704 /* Entities in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B06220A1ED02001E1704 /* Entities */; };
+		35C3B06520A1ED02001E1704 /* Presenter in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B06420A1ED02001E1704 /* Presenter */; };
+		35C3B06720A1ED02001E1704 /* Protocols in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B06620A1ED02001E1704 /* Protocols */; };
+		35C3B06920A1ED02001E1704 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B06820A1ED02001E1704 /* View */; };
+		35C3B06B20A1ED02001E1704 /* WireFrame in Resources */ = {isa = PBXBuildFile; fileRef = 35C3B06A20A1ED02001E1704 /* WireFrame */; };
+		E1D7BD091568BDE4E126D490 /* Pods_WatchItVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9812D63ECC71B47E9260CA36 /* Pods_WatchItVIPER.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		144E5814F2CDDE812AD25F7A /* Pods-WatchItVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchItVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchItVIPER/Pods-WatchItVIPER.debug.xcconfig"; sourceTree = "<group>"; };
 		353F18552098715C003C9380 /* WatchItVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchItVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353F18582098715C003C9380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		353F185A2098715C003C9380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		353F185D2098715C003C9380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353F18602098715C003C9380 /* WatchItVIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchItVIPER.xcdatamodel; sourceTree = "<group>"; };
 		353F18622098715C003C9380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353F18652098715C003C9380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353F18672098715C003C9380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354295DF209F70B9006A71D4 /* WireFrame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WireFrame; sourceTree = "<group>"; };
+		359AFDEA2098B67500D0A05E /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		359AFDEC2098B68900D0A05E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		359AFDEE2098C72100D0A05E /* ReopsitoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReopsitoryProtocol.swift; sourceTree = "<group>"; };
+		359AFDF02098C7A300D0A05E /* RepositoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryImp.swift; sourceTree = "<group>"; };
+		359AFDF62098C9FF00D0A05E /* DataManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataManager; sourceTree = "<group>"; };
+		359AFDF92098CB3500D0A05E /* MovieListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListProtocols.swift; sourceTree = "<group>"; };
+		35C3B05C209F7165001E1704 /* Presenter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presenter; sourceTree = "<group>"; };
+		35C3B05E209F7170001E1704 /* Interactor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Interactor; sourceTree = "<group>"; };
+		35C3B060209F7178001E1704 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		35C3B06220A1ED02001E1704 /* Entities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Entities; sourceTree = "<group>"; };
+		35C3B06420A1ED02001E1704 /* Presenter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presenter; sourceTree = "<group>"; };
+		35C3B06620A1ED02001E1704 /* Protocols */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Protocols; sourceTree = "<group>"; };
+		35C3B06820A1ED02001E1704 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		35C3B06A20A1ED02001E1704 /* WireFrame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WireFrame; sourceTree = "<group>"; };
+		6B000E4523A1DBB23B01A44F /* Pods-WatchItVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchItVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchItVIPER/Pods-WatchItVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		9812D63ECC71B47E9260CA36 /* Pods_WatchItVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchItVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D7BD091568BDE4E126D490 /* Pods_WatchItVIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				353F18572098715C003C9380 /* WatchItVIPER */,
 				353F18562098715C003C9380 /* Products */,
+				982C4CCF7841827577CE4E90 /* Pods */,
+				D905488A32C6FC7A6A4A5456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +91,12 @@
 		353F18572098715C003C9380 /* WatchItVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				359AFDF52098C9BC00D0A05E /* MovieFavourits */,
+				359AFDF42098C9B000D0A05E /* MovieDetails */,
+				359AFDF32098C9A100D0A05E /* MovieList */,
+				359AFDF22098C98600D0A05E /* utility */,
+				353F1870209871CB003C9380 /* Entity */,
 				353F18582098715C003C9380 /* AppDelegate.swift */,
-				353F185A2098715C003C9380 /* ViewController.swift */,
 				353F185C2098715C003C9380 /* Main.storyboard */,
 				353F18622098715C003C9380 /* Assets.xcassets */,
 				353F18642098715C003C9380 /* LaunchScreen.storyboard */,
@@ -67,6 +106,81 @@
 			path = WatchItVIPER;
 			sourceTree = "<group>";
 		};
+		353F1870209871CB003C9380 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				35C3B06220A1ED02001E1704 /* Entities */,
+				359AFDEA2098B67500D0A05E /* RealmService.swift */,
+				359AFDEC2098B68900D0A05E /* Movie.swift */,
+				359AFDEE2098C72100D0A05E /* ReopsitoryProtocol.swift */,
+				359AFDF02098C7A300D0A05E /* RepositoryImp.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		359AFDF22098C98600D0A05E /* utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		359AFDF32098C9A100D0A05E /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				35C3B060209F7178001E1704 /* View */,
+				35C3B05E209F7170001E1704 /* Interactor */,
+				35C3B05C209F7165001E1704 /* Presenter */,
+				354295DF209F70B9006A71D4 /* WireFrame */,
+				359AFDF82098CABB00D0A05E /* protocols */,
+				359AFDF62098C9FF00D0A05E /* DataManager */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		359AFDF42098C9B000D0A05E /* MovieDetails */ = {
+			isa = PBXGroup;
+			children = (
+				35C3B06A20A1ED02001E1704 /* WireFrame */,
+				35C3B06820A1ED02001E1704 /* View */,
+				35C3B06620A1ED02001E1704 /* Protocols */,
+				35C3B06420A1ED02001E1704 /* Presenter */,
+			);
+			path = MovieDetails;
+			sourceTree = "<group>";
+		};
+		359AFDF52098C9BC00D0A05E /* MovieFavourits */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieFavourits;
+			sourceTree = "<group>";
+		};
+		359AFDF82098CABB00D0A05E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				359AFDF92098CB3500D0A05E /* MovieListProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		982C4CCF7841827577CE4E90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144E5814F2CDDE812AD25F7A /* Pods-WatchItVIPER.debug.xcconfig */,
+				6B000E4523A1DBB23B01A44F /* Pods-WatchItVIPER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D905488A32C6FC7A6A4A5456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9812D63ECC71B47E9260CA36 /* Pods_WatchItVIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353F186A2098715C003C9380 /* Build configuration list for PBXNativeTarget "WatchItVIPER" */;
 			buildPhases = (
+				6D27CAF96D7B5A8819B43117 /* [CP] Check Pods Manifest.lock */,
 				353F18512098715C003C9380 /* Sources */,
 				353F18522098715C003C9380 /* Frameworks */,
 				353F18532098715C003C9380 /* Resources */,
+				678ED8143FDD76767204D2AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +242,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359AFDF72098C9FF00D0A05E /* DataManager in Resources */,
 				353F18662098715C003C9380 /* LaunchScreen.storyboard in Resources */,
 				353F18632098715C003C9380 /* Assets.xcassets in Resources */,
+				35C3B05D209F7165001E1704 /* Presenter in Resources */,
 				353F185E2098715C003C9380 /* Main.storyboard in Resources */,
+				35C3B06320A1ED02001E1704 /* Entities in Resources */,
+				35C3B05F209F7171001E1704 /* Interactor in Resources */,
+				35C3B06B20A1ED02001E1704 /* WireFrame in Resources */,
+				35C3B06520A1ED02001E1704 /* Presenter in Resources */,
+				35C3B06720A1ED02001E1704 /* Protocols in Resources */,
+				354295E0209F70B9006A71D4 /* WireFrame in Resources */,
+				35C3B061209F7178001E1704 /* View in Resources */,
+				35C3B06920A1ED02001E1704 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		678ED8143FDD76767204D2AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WatchItVIPER/Pods-WatchItVIPER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchItVIPER/Pods-WatchItVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D27CAF96D7B5A8819B43117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchItVIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		353F18512098715C003C9380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359AFDFA2098CB3500D0A05E /* MovieListProtocols.swift in Sources */,
 				353F18612098715C003C9380 /* WatchItVIPER.xcdatamodeld in Sources */,
-				353F185B2098715C003C9380 /* ViewController.swift in Sources */,
+				359AFDEB2098B67500D0A05E /* RealmService.swift in Sources */,
+				359AFDF12098C7A300D0A05E /* RepositoryImp.swift in Sources */,
+				359AFDED2098B68900D0A05E /* Movie.swift in Sources */,
+				359AFDEF2098C72100D0A05E /* ReopsitoryProtocol.swift in Sources */,
 				353F18592098715C003C9380 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +455,7 @@
 		};
 		353F186B2098715C003C9380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144E5814F2CDDE812AD25F7A /* Pods-WatchItVIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +470,7 @@
 		};
 		353F186C2098715C003C9380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B000E4523A1DBB23B01A44F /* Pods-WatchItVIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
