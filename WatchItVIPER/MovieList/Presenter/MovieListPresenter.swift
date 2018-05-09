@@ -1,4 +1,8 @@
-
+//  WatchItVIPER
+//
+//  Created by Sulta on 5/1/18.
+//  Copyright © 2018 Sulta. All rights reserved.
+//
 class MovieListPresenter: MovieListPresenterProtocol {
     weak var view: MovieListViewProtocol?
     var interactor: MovieListInteractorInputProtocol?

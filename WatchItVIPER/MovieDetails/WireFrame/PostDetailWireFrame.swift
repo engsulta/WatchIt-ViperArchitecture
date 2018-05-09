@@ -1,11 +1,8 @@
+//  WatchItVIPER
 //
-//  MovieDetailWireFrame.swift
-//  iOS-Viper-Architecture
+//  Created by Sulta on 5/1/18.
+//  Copyright © 2018 Sulta. All rights reserved.
 //
-//  Created by Amit Shekhar on 18/02/17.
-//  Copyright © 2017 Mindorks NextGen Private Limited. All rights reserved.
-//
-
 import UIKit
 
 class MovieDetailWireFrame: MovieDetailWireFrameProtocol {

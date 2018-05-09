@@ -1,11 +1,9 @@
-//
-//  Post+CoreDataClass.swift
-//  
-//
-//  Created by Amit Shekhar on 19/02/17.
-//
-//
 
+//  WatchItVIPER
+//
+//  Created by Sulta on 5/1/18.
+//  Copyright © 2018 Sulta. All rights reserved.
+//
 import Foundation
 import CoreData
 

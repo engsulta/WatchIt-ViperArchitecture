@@ -1,9 +1,7 @@
+//  WatchItVIPER
 //
-//  MovieListLocalDataManager.swift
-//  iOS-Viper-Architecture
-//
-//  Created by Amit Shekhar on 18/02/17.
-//  Copyright © 2017 Mindorks NextGen Private Limited. All rights reserved.
+//  Created by Sulta on 5/1/18.
+//  Copyright © 2018 Sulta. All rights reserved.
 //
 
 import CoreData
